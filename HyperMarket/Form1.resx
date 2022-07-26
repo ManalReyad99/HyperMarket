@@ -1,0 +1,1646 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="bunifuElipse1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>554, 17</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>25</value>
+  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1142, 604</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="DailyBillsLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="DailyBillsLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 18.2pt, style=Bold</value>
+  </data>
+  <data name="DailyBillsLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>30, 17</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="DailyBillsLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="DailyBillsLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>136, 29</value>
+  </data>
+  <data name="DailyBillsLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="DailyBillsLabel.Text" xml:space="preserve">
+    <value>Daily Bills</value>
+  </data>
+  <data name="&gt;&gt;DailyBillsLabel.Name" xml:space="preserve">
+    <value>DailyBillsLabel</value>
+  </data>
+  <data name="&gt;&gt;DailyBillsLabel.Type" xml:space="preserve">
+    <value>Guna.UI.WinForms.GunaLabel, Guna.UI, Version=1.9.0.1, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;DailyBillsLabel.Parent" xml:space="preserve">
+    <value>DailyBillsPanel</value>
+  </data>
+  <data name="&gt;&gt;DailyBillsLabel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="gunaCirclePictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAABGdBTUEAALGPC/xhBQAAAKJJREFUSEvt
+        k0EKAjEQBPMrPYiIR/G9+h/Rd2gHFJahkVp72YspqMNCKrDMpA3eXORGbuV1gW/Mc2ExLk7EuDgR4+JE
+        TA0PknKUtcfUcCcpe1l7TA1TMS5OxLg4EePiREwNv231dIv7udW2errF/dzY6i6mhm7GbparzNjNcsz4
+        I6aG4x3PFePiRIyLEzF36S74xZvEnOVDuovm2H/gJP+e1l44qbDH3ExtNgAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="gunaCirclePictureBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 15</value>
+  </data>
+  <data name="gunaCirclePictureBox1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="gunaCirclePictureBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 30</value>
+  </data>
+  <data name="gunaCirclePictureBox1.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>CenterImage</value>
+  </data>
+  <data name="gunaCirclePictureBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;gunaCirclePictureBox1.Name" xml:space="preserve">
+    <value>gunaCirclePictureBox1</value>
+  </data>
+  <data name="&gt;&gt;gunaCirclePictureBox1.Type" xml:space="preserve">
+    <value>Guna.UI.WinForms.GunaCirclePictureBox, Guna.UI, Version=1.9.0.1, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;gunaCirclePictureBox1.Parent" xml:space="preserve">
+    <value>DailyBillsPanel</value>
+  </data>
+  <data name="&gt;&gt;gunaCirclePictureBox1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="DailyBillsPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 348</value>
+  </data>
+  <data name="DailyBillsPanel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="DailyBillsPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 60</value>
+  </data>
+  <data name="DailyBillsPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;DailyBillsPanel.Name" xml:space="preserve">
+    <value>DailyBillsPanel</value>
+  </data>
+  <data name="&gt;&gt;DailyBillsPanel.Type" xml:space="preserve">
+    <value>Guna.UI.WinForms.GunaElipsePanel, Guna.UI, Version=1.9.0.1, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;DailyBillsPanel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;DailyBillsPanel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Ravie, 20.25pt, style=Italic</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 19</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 36</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Casher</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="gunaLabel7.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="gunaLabel7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 16.2pt, style=Bold</value>
+  </data>
+  <data name="gunaLabel7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>46, 11</value>
+  </data>
+  <data name="gunaLabel7.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="gunaLabel7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 26</value>
+  </data>
+  <data name="gunaLabel7.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="gunaLabel7.Text" xml:space="preserve">
+    <value>Log out</value>
+  </data>
+  <data name="&gt;&gt;gunaLabel7.Name" xml:space="preserve">
+    <value>gunaLabel7</value>
+  </data>
+  <data name="&gt;&gt;gunaLabel7.Type" xml:space="preserve">
+    <value>Guna.UI.WinForms.GunaLabel, Guna.UI, Version=1.9.0.1, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;gunaLabel7.Parent" xml:space="preserve">
+    <value>gunaElipsePanel8</value>
+  </data>
+  <data name="&gt;&gt;gunaLabel7.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="gunaCirclePictureBox7.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABGdBTUEAALGPC/xhBQAAAetJREFUaEPd
+        2kErBXEUBfC3saEoJZQSdrKRnYWVryS+ALKWlXwMW5SwoxQlGxRiYaMsLHCOmvq/O8ebO28x/+ud+i3e
+        TPc2J97zTNNC+mAT7uA7CF7LBvDa3GEJtSyCdXDnCdSSCB7BHbUgEnfUcCTuqOFI3FHDkbijhiNxRw1H
+        4o4ajsQdNRyJO2o4ly/Yg0WYhy1wRy3MZQe6jlqYyyww/Knsw+DvK2fUwlymgTkHvj4Bdxm7LKdVYEbh
+        CniMpYahMnZZTh+wBEztMnZZbiyzDAzLXAOPV5axiyJIy4yBq4xdEkXtMnZBJO9QpLKMHY4mzQTcAo+X
+        ythBr09Yg0loMn+WsRfoxRK5IsvYC/QaB+YQ1PkmXYI84cE3H3MM6nyTbkCe8Mj5qzUFxZ3RMxiC0gV6
+        FW/2EWgysgRjLzCaNCxxDzx+Cm3fjO1gJOkfRH7FL0ocwQC0xQ5H8QYLwKQl+ClZKsHYBRGkJWagsgRj
+        l+RmSzwAj3cswdhFOaX/WKUlDqBjCcYuy2kFGFuiHypjl+XEj1fmAvi69BHbKXZZTnPA7MK/vh20DV1H
+        LcylZ26ZKu6o4UjcUcORuKOGI3FHDUfijhqOxB01HIk7ajgSd55BLYig1kM1PfOYU/Hg2SuoZTm8QI0H
+        z1qtH0tgafNxK7sKAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="gunaCirclePictureBox7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 11</value>
+  </data>
+  <data name="gunaCirclePictureBox7.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="gunaCirclePictureBox7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 32</value>
+  </data>
+  <data name="gunaCirclePictureBox7.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="gunaCirclePictureBox7.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;gunaCirclePictureBox7.Name" xml:space="preserve">
+    <value>gunaCirclePictureBox7</value>
+  </data>
+  <data name="&gt;&gt;gunaCirclePictureBox7.Type" xml:space="preserve">
+    <value>Guna.UI.WinForms.GunaCirclePictureBox, Guna.UI, Version=1.9.0.1, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;gunaCirclePictureBox7.Parent" xml:space="preserve">
+    <value>gunaElipsePanel8</value>
+  </data>
+  <data name="&gt;&gt;gunaCirclePictureBox7.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="gunaElipsePanel8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>500, 545</value>
+  </data>
+  <data name="gunaElipsePanel8.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="gunaElipsePanel8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>145, 48</value>
+  </data>
+  <data name="gunaElipsePanel8.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;gunaElipsePanel8.Name" xml:space="preserve">
+    <value>gunaElipsePanel8</value>
+  </data>
+  <data name="&gt;&gt;gunaElipsePanel8.Type" xml:space="preserve">
+    <value>Guna.UI.WinForms.GunaElipsePanel, Guna.UI, Version=1.9.0.1, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;gunaElipsePanel8.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;gunaElipsePanel8.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Exit.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAAABGdBTUEAALGPC/xhBQAAAN5JREFUSEvt
+        lcsKwjAQRQsi+HnqJ/ra6db6Tz5w60bvgQxISSfTx0KhFw6UziQHmqGppvxt1uIhNmLOi0Lo2YurWPEi
+        Ehpf4p04Ck9G7SSsn7Uh2VPYIqNN1pQYfI1i+ATNhdCUtUlgK4qZCRpzG5zFIsFzroe17BGKJ7skcrVO
+        Eosny9FLYonKBkksbHAQOQFQGywhHHwtchKgRs+geNP1jU1jr0QlRi+ZJ9klcrVOMk9i0+VNY1g2xi+I
+        SSxmjJ8q10UxY1wTSxEKF99NcOiexEIPZ3YX4Ytvyi+lqj5JrbJybIik5wAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="Exit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1077, 3</value>
+  </data>
+  <data name="Exit.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="Exit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 36</value>
+  </data>
+  <data name="Exit.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="Exit.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;Exit.Name" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="&gt;&gt;Exit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Exit.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Exit.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="CreateBillLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="CreateBillLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 18.2pt, style=Bold</value>
+  </data>
+  <data name="CreateBillLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>30, 16</value>
+  </data>
+  <data name="CreateBillLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="CreateBillLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>141, 29</value>
+  </data>
+  <data name="CreateBillLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="CreateBillLabel.Text" xml:space="preserve">
+    <value>Create Bill</value>
+  </data>
+  <data name="&gt;&gt;CreateBillLabel.Name" xml:space="preserve">
+    <value>CreateBillLabel</value>
+  </data>
+  <data name="&gt;&gt;CreateBillLabel.Type" xml:space="preserve">
+    <value>Guna.UI.WinForms.GunaLabel, Guna.UI, Version=1.9.0.1, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;CreateBillLabel.Parent" xml:space="preserve">
+    <value>CreateBillPanel</value>
+  </data>
+  <data name="&gt;&gt;CreateBillLabel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="gunaCirclePictureBox5.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAABGdBTUEAALGPC/xhBQAAAKJJREFUSEvt
+        k0EKAjEQBPMrPYiIR/G9+h/Rd2gHFJahkVp72YspqMNCKrDMpA3eXORGbuV1gW/Mc2ExLk7EuDgR4+JE
+        TA0PknKUtcfUcCcpe1l7TA1TMS5OxLg4EePiREwNv231dIv7udW2errF/dzY6i6mhm7GbparzNjNcsz4
+        I6aG4x3PFePiRIyLEzF36S74xZvEnOVDuovm2H/gJP+e1l44qbDH3ExtNgAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="gunaCirclePictureBox5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 16</value>
+  </data>
+  <data name="gunaCirclePictureBox5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="gunaCirclePictureBox5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 28</value>
+  </data>
+  <data name="gunaCirclePictureBox5.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>CenterImage</value>
+  </data>
+  <data name="gunaCirclePictureBox5.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;gunaCirclePictureBox5.Name" xml:space="preserve">
+    <value>gunaCirclePictureBox5</value>
+  </data>
+  <data name="&gt;&gt;gunaCirclePictureBox5.Type" xml:space="preserve">
+    <value>Guna.UI.WinForms.GunaCirclePictureBox, Guna.UI, Version=1.9.0.1, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;gunaCirclePictureBox5.Parent" xml:space="preserve">
+    <value>CreateBillPanel</value>
+  </data>
+  <data name="&gt;&gt;gunaCirclePictureBox5.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="CreateBillPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 98</value>
+  </data>
+  <data name="CreateBillPanel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="CreateBillPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 64</value>
+  </data>
+  <data name="CreateBillPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;CreateBillPanel.Name" xml:space="preserve">
+    <value>CreateBillPanel</value>
+  </data>
+  <data name="&gt;&gt;CreateBillPanel.Type" xml:space="preserve">
+    <value>Guna.UI.WinForms.GunaElipsePanel, Guna.UI, Version=1.9.0.1, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;CreateBillPanel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CreateBillPanel.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="CustomerLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="CustomerLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 16.2pt, style=Bold</value>
+  </data>
+  <data name="CustomerLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>39, 20</value>
+  </data>
+  <data name="CustomerLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="CustomerLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 26</value>
+  </data>
+  <data name="CustomerLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="CustomerLabel.Text" xml:space="preserve">
+    <value>Customer</value>
+  </data>
+  <data name="&gt;&gt;CustomerLabel.Name" xml:space="preserve">
+    <value>CustomerLabel</value>
+  </data>
+  <data name="&gt;&gt;CustomerLabel.Type" xml:space="preserve">
+    <value>Guna.UI.WinForms.GunaLabel, Guna.UI, Version=1.9.0.1, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;CustomerLabel.Parent" xml:space="preserve">
+    <value>CustomerPanel</value>
+  </data>
+  <data name="&gt;&gt;CustomerLabel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="gunaCirclePictureBox4.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAABGdBTUEAALGPC/xhBQAAASFJREFUSEvt
+        1DFKQ0EUheE02YAgpBG00LgHe8VScCFZgY2FVQTdgBsQRCyCJCKSHaQIiGBhYqGgYKF26j/FhffG8251
+        Byz84Wsyk3eKR9L676+2jCPc4xVznGENxdrBJ76FJ/TQQWireIcarXpA6Pgx1JCyj7BuoUaUCcJqerfK
+        G8J6hhpRQocHUCPKEGGdQ40oFwjrEWpEmSGs9G+lRpRDhJbenRqqukR421BjVZsoUh9qMNlD0dRoUrx8
+        MP18VlC0XeTDSyhSG1s4xRfyYesa+VmTKzS2gRO8QH3ZWOrM86tFjKAuK1b+eRfWOvLzWgu4Q37JY6kz
+        T60DqEseS515ak2hLnksdeap9QF1yWOpM09Y6uGesNTDPWGNoQaE1s0PsNRYjpQpeMwAAAAASUVORK5C
+        YII=
+</value>
+  </data>
+  <data name="gunaCirclePictureBox4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 10</value>
+  </data>
+  <data name="gunaCirclePictureBox4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="gunaCirclePictureBox4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 36</value>
+  </data>
+  <data name="gunaCirclePictureBox4.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>CenterImage</value>
+  </data>
+  <data name="gunaCirclePictureBox4.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;gunaCirclePictureBox4.Name" xml:space="preserve">
+    <value>gunaCirclePictureBox4</value>
+  </data>
+  <data name="&gt;&gt;gunaCirclePictureBox4.Type" xml:space="preserve">
+    <value>Guna.UI.WinForms.GunaCirclePictureBox, Guna.UI, Version=1.9.0.1, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;gunaCirclePictureBox4.Parent" xml:space="preserve">
+    <value>CustomerPanel</value>
+  </data>
+  <data name="&gt;&gt;gunaCirclePictureBox4.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="CustomerPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 228</value>
+  </data>
+  <data name="CustomerPanel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="CustomerPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 56</value>
+  </data>
+  <data name="CustomerPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;CustomerPanel.Name" xml:space="preserve">
+    <value>CustomerPanel</value>
+  </data>
+  <data name="&gt;&gt;CustomerPanel.Type" xml:space="preserve">
+    <value>Guna.UI.WinForms.GunaElipsePanel, Guna.UI, Version=1.9.0.1, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;CustomerPanel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CustomerPanel.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="SaveCustomer.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 14.25pt, style=Bold</value>
+  </data>
+  <data name="SaveCustomer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>322, 219</value>
+  </data>
+  <data name="SaveCustomer.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="SaveCustomer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>181, 47</value>
+  </data>
+  <data name="SaveCustomer.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="SaveCustomer.Text" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="&gt;&gt;SaveCustomer.Name" xml:space="preserve">
+    <value>SaveCustomer</value>
+  </data>
+  <data name="&gt;&gt;SaveCustomer.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2Button, Guna.UI2, Version=2.0.0.1, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;SaveCustomer.Parent" xml:space="preserve">
+    <value>CustomerPanelData</value>
+  </data>
+  <data name="&gt;&gt;SaveCustomer.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="AddCustomer.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 14.25pt, style=Bold</value>
+  </data>
+  <data name="AddCustomer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>110, 219</value>
+  </data>
+  <data name="AddCustomer.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="AddCustomer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>181, 47</value>
+  </data>
+  <data name="AddCustomer.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="AddCustomer.Text" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="&gt;&gt;AddCustomer.Name" xml:space="preserve">
+    <value>AddCustomer</value>
+  </data>
+  <data name="&gt;&gt;AddCustomer.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2Button, Guna.UI2, Version=2.0.0.1, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;AddCustomer.Parent" xml:space="preserve">
+    <value>CustomerPanelData</value>
+  </data>
+  <data name="&gt;&gt;AddCustomer.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ID.Text" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="name.Text" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="name.Width" type="System.Int32, mscorlib">
+    <value>250</value>
+  </data>
+  <data name="Phone.Text" xml:space="preserve">
+    <value>Phone</value>
+  </data>
+  <data name="Phone.Width" type="System.Int32, mscorlib">
+    <value>150</value>
+  </data>
+  <data name="AddedCustomerData.Location" type="System.Drawing.Point, System.Drawing">
+    <value>68, 333</value>
+  </data>
+  <data name="AddedCustomerData.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="AddedCustomerData.Size" type="System.Drawing.Size, System.Drawing">
+    <value>804, 80</value>
+  </data>
+  <data name="AddedCustomerData.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;AddedCustomerData.Name" xml:space="preserve">
+    <value>AddedCustomerData</value>
+  </data>
+  <data name="&gt;&gt;AddedCustomerData.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AddedCustomerData.Parent" xml:space="preserve">
+    <value>CustomerPanelData</value>
+  </data>
+  <data name="&gt;&gt;AddedCustomerData.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="CustomerPhone.Location" type="System.Drawing.Point, System.Drawing">
+    <value>192, 140</value>
+  </data>
+  <data name="CustomerPhone.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="CustomerPhone.Size" type="System.Drawing.Size, System.Drawing">
+    <value>237, 20</value>
+  </data>
+  <data name="CustomerPhone.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;CustomerPhone.Name" xml:space="preserve">
+    <value>CustomerPhone</value>
+  </data>
+  <data name="&gt;&gt;CustomerPhone.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CustomerPhone.Parent" xml:space="preserve">
+    <value>CustomerPanelData</value>
+  </data>
+  <data name="&gt;&gt;CustomerPhone.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13.8pt, style=Bold</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>106, 134</value>
+  </data>
+  <data name="label2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 24</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Phone</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>CustomerPanelData</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13.8pt, style=Bold</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>104, 74</value>
+  </data>
+  <data name="label3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 24</value>
+  </data>
+  <data name="label3.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>CustomerPanelData</value>
+  </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="CustomerName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>192, 69</value>
+  </data>
+  <data name="CustomerName.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="CustomerName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>237, 20</value>
+  </data>
+  <data name="CustomerName.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;CustomerName.Name" xml:space="preserve">
+    <value>CustomerName</value>
+  </data>
+  <data name="&gt;&gt;CustomerName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CustomerName.Parent" xml:space="preserve">
+    <value>CustomerPanelData</value>
+  </data>
+  <data name="&gt;&gt;CustomerName.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="CustomerPanelData.Location" type="System.Drawing.Point, System.Drawing">
+    <value>28, 33</value>
+  </data>
+  <data name="CustomerPanelData.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="CustomerPanelData.Size" type="System.Drawing.Size, System.Drawing">
+    <value>881, 440</value>
+  </data>
+  <data name="CustomerPanelData.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;CustomerPanelData.Name" xml:space="preserve">
+    <value>CustomerPanelData</value>
+  </data>
+  <data name="&gt;&gt;CustomerPanelData.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CustomerPanelData.Parent" xml:space="preserve">
+    <value>MainPanel</value>
+  </data>
+  <data name="&gt;&gt;CustomerPanelData.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="TotalGainedLabel.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="TotalGainedLabel.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 13.8pt, style=Bold</value>
+  </data>
+  <data name="TotalGainedLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>34, 3</value>
+  </data>
+  <data name="TotalGainedLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>118, 22</value>
+  </data>
+  <data name="TotalGainedLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="TotalGainedLabel.Text" xml:space="preserve">
+    <value>Total  Gained</value>
+  </data>
+  <data name="&gt;&gt;TotalGainedLabel.Name" xml:space="preserve">
+    <value>TotalGainedLabel</value>
+  </data>
+  <data name="&gt;&gt;TotalGainedLabel.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v21.2, Version=21.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;TotalGainedLabel.Parent" xml:space="preserve">
+    <value>DailyBillsDataPanel</value>
+  </data>
+  <data name="&gt;&gt;TotalGainedLabel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="NoOfBiillsLabel.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>163, 17</value>
+  </metadata>
+  <data name="NoOfBiillsLabel.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 13.8pt, style=Bold</value>
+  </data>
+  <data name="NoOfBiillsLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>694, 3</value>
+  </data>
+  <data name="NoOfBiillsLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 22</value>
+  </data>
+  <data name="NoOfBiillsLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="NoOfBiillsLabel.Text" xml:space="preserve">
+    <value>No Of Bills</value>
+  </data>
+  <data name="&gt;&gt;NoOfBiillsLabel.Name" xml:space="preserve">
+    <value>NoOfBiillsLabel</value>
+  </data>
+  <data name="&gt;&gt;NoOfBiillsLabel.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v21.2, Version=21.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;NoOfBiillsLabel.Parent" xml:space="preserve">
+    <value>DailyBillsDataPanel</value>
+  </data>
+  <data name="&gt;&gt;NoOfBiillsLabel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="NoOfBiils.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>297, 17</value>
+  </metadata>
+  <data name="NoOfBiils.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 13.8pt</value>
+  </data>
+  <data name="NoOfBiils.Location" type="System.Drawing.Point, System.Drawing">
+    <value>736, 29</value>
+  </data>
+  <data name="NoOfBiils.Size" type="System.Drawing.Size, System.Drawing">
+    <value>10, 22</value>
+  </data>
+  <data name="NoOfBiils.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="NoOfBiils.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;NoOfBiils.Name" xml:space="preserve">
+    <value>NoOfBiils</value>
+  </data>
+  <data name="&gt;&gt;NoOfBiils.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v21.2, Version=21.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;NoOfBiils.Parent" xml:space="preserve">
+    <value>DailyBillsDataPanel</value>
+  </data>
+  <data name="&gt;&gt;NoOfBiils.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Bills.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 58</value>
+  </data>
+  <data name="Bills.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="Bills.RowHeadersWidth" type="System.Int32, mscorlib">
+    <value>51</value>
+  </data>
+  <data name="Bills.Size" type="System.Drawing.Size, System.Drawing">
+    <value>881, 357</value>
+  </data>
+  <data name="Bills.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;Bills.Name" xml:space="preserve">
+    <value>Bills</value>
+  </data>
+  <data name="&gt;&gt;Bills.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Bills.Parent" xml:space="preserve">
+    <value>DailyBillsDataPanel</value>
+  </data>
+  <data name="&gt;&gt;Bills.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <metadata name="TotalGainedmoney.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>399, 17</value>
+  </metadata>
+  <data name="TotalGainedmoney.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 13.8pt</value>
+  </data>
+  <data name="TotalGainedmoney.Location" type="System.Drawing.Point, System.Drawing">
+    <value>83, 24</value>
+  </data>
+  <data name="TotalGainedmoney.Size" type="System.Drawing.Size, System.Drawing">
+    <value>10, 22</value>
+  </data>
+  <data name="TotalGainedmoney.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="TotalGainedmoney.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;TotalGainedmoney.Name" xml:space="preserve">
+    <value>TotalGainedmoney</value>
+  </data>
+  <data name="&gt;&gt;TotalGainedmoney.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v21.2, Version=21.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;TotalGainedmoney.Parent" xml:space="preserve">
+    <value>DailyBillsDataPanel</value>
+  </data>
+  <data name="&gt;&gt;TotalGainedmoney.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="DailyBillsDataPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 15</value>
+  </data>
+  <data name="DailyBillsDataPanel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="DailyBillsDataPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>920, 457</value>
+  </data>
+  <data name="DailyBillsDataPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;DailyBillsDataPanel.Name" xml:space="preserve">
+    <value>DailyBillsDataPanel</value>
+  </data>
+  <data name="&gt;&gt;DailyBillsDataPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DailyBillsDataPanel.Parent" xml:space="preserve">
+    <value>MainPanel</value>
+  </data>
+  <data name="&gt;&gt;DailyBillsDataPanel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="BtnforPayWithPoints.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 12pt, style=Bold</value>
+  </data>
+  <data name="BtnforPayWithPoints.Location" type="System.Drawing.Point, System.Drawing">
+    <value>234, 326</value>
+  </data>
+  <data name="BtnforPayWithPoints.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="BtnforPayWithPoints.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 52</value>
+  </data>
+  <data name="BtnforPayWithPoints.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="BtnforPayWithPoints.Text" xml:space="preserve">
+    <value>Pay With Points</value>
+  </data>
+  <data name="&gt;&gt;BtnforPayWithPoints.Name" xml:space="preserve">
+    <value>BtnforPayWithPoints</value>
+  </data>
+  <data name="&gt;&gt;BtnforPayWithPoints.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2Button, Guna.UI2, Version=2.0.0.1, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;BtnforPayWithPoints.Parent" xml:space="preserve">
+    <value>CreateBillPanelData</value>
+  </data>
+  <data name="&gt;&gt;BtnforPayWithPoints.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="TotalPriceLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="TotalPriceLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 11.25pt, style=Bold</value>
+  </data>
+  <data name="TotalPriceLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>116, 414</value>
+  </data>
+  <data name="TotalPriceLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>17, 18</value>
+  </data>
+  <data name="TotalPriceLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="TotalPriceLabel.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;TotalPriceLabel.Name" xml:space="preserve">
+    <value>TotalPriceLabel</value>
+  </data>
+  <data name="&gt;&gt;TotalPriceLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TotalPriceLabel.Parent" xml:space="preserve">
+    <value>CreateBillPanelData</value>
+  </data>
+  <data name="&gt;&gt;TotalPriceLabel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="labelTotalPrice.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelTotalPrice.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 11.25pt, style=Bold</value>
+  </data>
+  <data name="labelTotalPrice.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 414</value>
+  </data>
+  <data name="labelTotalPrice.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 18</value>
+  </data>
+  <data name="labelTotalPrice.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="labelTotalPrice.Text" xml:space="preserve">
+    <value>Total Price</value>
+  </data>
+  <data name="&gt;&gt;labelTotalPrice.Name" xml:space="preserve">
+    <value>labelTotalPrice</value>
+  </data>
+  <data name="&gt;&gt;labelTotalPrice.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelTotalPrice.Parent" xml:space="preserve">
+    <value>CreateBillPanelData</value>
+  </data>
+  <data name="&gt;&gt;labelTotalPrice.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Quantitylbl.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Quantitylbl.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt, style=Bold</value>
+  </data>
+  <data name="Quantitylbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 217</value>
+  </data>
+  <data name="Quantitylbl.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="Quantitylbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 24</value>
+  </data>
+  <data name="Quantitylbl.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="Quantitylbl.Text" xml:space="preserve">
+    <value>Quantity</value>
+  </data>
+  <data name="&gt;&gt;Quantitylbl.Name" xml:space="preserve">
+    <value>Quantitylbl</value>
+  </data>
+  <data name="&gt;&gt;Quantitylbl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Quantitylbl.Parent" xml:space="preserve">
+    <value>CreateBillPanelData</value>
+  </data>
+  <data name="&gt;&gt;Quantitylbl.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="label5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt, style=Bold</value>
+  </data>
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 171</value>
+  </data>
+  <data name="label5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 24</value>
+  </data>
+  <data name="label5.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>Product</value>
+  </data>
+  <data name="&gt;&gt;label5.Name" xml:space="preserve">
+    <value>label5</value>
+  </data>
+  <data name="&gt;&gt;label5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label5.Parent" xml:space="preserve">
+    <value>CreateBillPanelData</value>
+  </data>
+  <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="CBForSearchProduct.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 11.25pt, style=Bold</value>
+  </data>
+  <data name="CBForSearchProduct.ItemHeight" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="CBForSearchProduct.Location" type="System.Drawing.Point, System.Drawing">
+    <value>112, 162</value>
+  </data>
+  <data name="CBForSearchProduct.Size" type="System.Drawing.Size, System.Drawing">
+    <value>233, 36</value>
+  </data>
+  <data name="CBForSearchProduct.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="&gt;&gt;CBForSearchProduct.Name" xml:space="preserve">
+    <value>CBForSearchProduct</value>
+  </data>
+  <data name="&gt;&gt;CBForSearchProduct.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2ComboBox, Guna.UI2, Version=2.0.0.1, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;CBForSearchProduct.Parent" xml:space="preserve">
+    <value>CreateBillPanelData</value>
+  </data>
+  <data name="&gt;&gt;CBForSearchProduct.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="label6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt, style=Bold</value>
+  </data>
+  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 108</value>
+  </data>
+  <data name="label6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 24</value>
+  </data>
+  <data name="label6.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>Category</value>
+  </data>
+  <data name="&gt;&gt;label6.Name" xml:space="preserve">
+    <value>label6</value>
+  </data>
+  <data name="&gt;&gt;label6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label6.Parent" xml:space="preserve">
+    <value>CreateBillPanelData</value>
+  </data>
+  <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="CBForSearchCategory.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 11.25pt, style=Bold</value>
+  </data>
+  <data name="CBForSearchCategory.ItemHeight" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="CBForSearchCategory.Location" type="System.Drawing.Point, System.Drawing">
+    <value>112, 102</value>
+  </data>
+  <data name="CBForSearchCategory.Size" type="System.Drawing.Size, System.Drawing">
+    <value>233, 36</value>
+  </data>
+  <data name="CBForSearchCategory.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="&gt;&gt;CBForSearchCategory.Name" xml:space="preserve">
+    <value>CBForSearchCategory</value>
+  </data>
+  <data name="&gt;&gt;CBForSearchCategory.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2ComboBox, Guna.UI2, Version=2.0.0.1, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;CBForSearchCategory.Parent" xml:space="preserve">
+    <value>CreateBillPanelData</value>
+  </data>
+  <data name="&gt;&gt;CBForSearchCategory.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="labelCustomer.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelCustomer.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt, style=Bold</value>
+  </data>
+  <data name="labelCustomer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 46</value>
+  </data>
+  <data name="labelCustomer.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="labelCustomer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 24</value>
+  </data>
+  <data name="labelCustomer.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="labelCustomer.Text" xml:space="preserve">
+    <value>Custmor</value>
+  </data>
+  <data name="&gt;&gt;labelCustomer.Name" xml:space="preserve">
+    <value>labelCustomer</value>
+  </data>
+  <data name="&gt;&gt;labelCustomer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelCustomer.Parent" xml:space="preserve">
+    <value>CreateBillPanelData</value>
+  </data>
+  <data name="&gt;&gt;labelCustomer.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="CBForSearchCustmoer.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 11.25pt, style=Bold</value>
+  </data>
+  <data name="CBForSearchCustmoer.ItemHeight" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="CBForSearchCustmoer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>112, 45</value>
+  </data>
+  <data name="CBForSearchCustmoer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>231, 36</value>
+  </data>
+  <data name="CBForSearchCustmoer.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;CBForSearchCustmoer.Name" xml:space="preserve">
+    <value>CBForSearchCustmoer</value>
+  </data>
+  <data name="&gt;&gt;CBForSearchCustmoer.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2ComboBox, Guna.UI2, Version=2.0.0.1, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;CBForSearchCustmoer.Parent" xml:space="preserve">
+    <value>CreateBillPanelData</value>
+  </data>
+  <data name="&gt;&gt;CBForSearchCustmoer.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="BTNForPrint.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 14.25pt, style=Bold</value>
+  </data>
+  <data name="BTNForPrint.Location" type="System.Drawing.Point, System.Drawing">
+    <value>247, 384</value>
+  </data>
+  <data name="BTNForPrint.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="BTNForPrint.Size" type="System.Drawing.Size, System.Drawing">
+    <value>161, 52</value>
+  </data>
+  <data name="BTNForPrint.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="BTNForPrint.Text" xml:space="preserve">
+    <value>Print</value>
+  </data>
+  <data name="&gt;&gt;BTNForPrint.Name" xml:space="preserve">
+    <value>BTNForPrint</value>
+  </data>
+  <data name="&gt;&gt;BTNForPrint.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2Button, Guna.UI2, Version=2.0.0.1, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;BTNForPrint.Parent" xml:space="preserve">
+    <value>CreateBillPanelData</value>
+  </data>
+  <data name="&gt;&gt;BTNForPrint.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="ValueOfPointlbl.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ValueOfPointlbl.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 11.25pt, style=Bold</value>
+  </data>
+  <data name="ValueOfPointlbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>570, 18</value>
+  </data>
+  <data name="ValueOfPointlbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>17, 18</value>
+  </data>
+  <data name="ValueOfPointlbl.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="ValueOfPointlbl.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ValueOfPointlbl.Name" xml:space="preserve">
+    <value>ValueOfPointlbl</value>
+  </data>
+  <data name="&gt;&gt;ValueOfPointlbl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ValueOfPointlbl.Parent" xml:space="preserve">
+    <value>CreateBillPanelData</value>
+  </data>
+  <data name="&gt;&gt;ValueOfPointlbl.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="CustomerBillGrid.Location" type="System.Drawing.Point, System.Drawing">
+    <value>463, 39</value>
+  </data>
+  <data name="CustomerBillGrid.RowHeadersWidth" type="System.Int32, mscorlib">
+    <value>51</value>
+  </data>
+  <data name="CustomerBillGrid.Size" type="System.Drawing.Size, System.Drawing">
+    <value>347, 392</value>
+  </data>
+  <data name="CustomerBillGrid.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;CustomerBillGrid.Name" xml:space="preserve">
+    <value>CustomerBillGrid</value>
+  </data>
+  <data name="&gt;&gt;CustomerBillGrid.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CustomerBillGrid.Parent" xml:space="preserve">
+    <value>CreateBillPanelData</value>
+  </data>
+  <data name="&gt;&gt;CustomerBillGrid.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="QuantityTxtBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="QuantityTxtBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>112, 212</value>
+  </data>
+  <data name="QuantityTxtBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="QuantityTxtBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>233, 41</value>
+  </data>
+  <data name="QuantityTxtBox.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;QuantityTxtBox.Name" xml:space="preserve">
+    <value>QuantityTxtBox</value>
+  </data>
+  <data name="&gt;&gt;QuantityTxtBox.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2TextBox, Guna.UI2, Version=2.0.0.1, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;QuantityTxtBox.Parent" xml:space="preserve">
+    <value>CreateBillPanelData</value>
+  </data>
+  <data name="&gt;&gt;QuantityTxtBox.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="ButtonForDelete.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 14.25pt, style=Bold</value>
+  </data>
+  <data name="ButtonForDelete.Location" type="System.Drawing.Point, System.Drawing">
+    <value>290, 266</value>
+  </data>
+  <data name="ButtonForDelete.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="ButtonForDelete.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 52</value>
+  </data>
+  <data name="ButtonForDelete.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="ButtonForDelete.Text" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="&gt;&gt;ButtonForDelete.Name" xml:space="preserve">
+    <value>ButtonForDelete</value>
+  </data>
+  <data name="&gt;&gt;ButtonForDelete.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2Button, Guna.UI2, Version=2.0.0.1, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;ButtonForDelete.Parent" xml:space="preserve">
+    <value>CreateBillPanelData</value>
+  </data>
+  <data name="&gt;&gt;ButtonForDelete.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="ButtonForEdit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 14.25pt, style=Bold</value>
+  </data>
+  <data name="ButtonForEdit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>147, 266</value>
+  </data>
+  <data name="ButtonForEdit.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="ButtonForEdit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 52</value>
+  </data>
+  <data name="ButtonForEdit.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="ButtonForEdit.Text" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="&gt;&gt;ButtonForEdit.Name" xml:space="preserve">
+    <value>ButtonForEdit</value>
+  </data>
+  <data name="&gt;&gt;ButtonForEdit.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2Button, Guna.UI2, Version=2.0.0.1, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;ButtonForEdit.Parent" xml:space="preserve">
+    <value>CreateBillPanelData</value>
+  </data>
+  <data name="&gt;&gt;ButtonForEdit.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="ButtonforPay.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 14.25pt, style=Bold</value>
+  </data>
+  <data name="ButtonforPay.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 326</value>
+  </data>
+  <data name="ButtonforPay.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="ButtonforPay.Size" type="System.Drawing.Size, System.Drawing">
+    <value>166, 52</value>
+  </data>
+  <data name="ButtonforPay.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="ButtonforPay.Text" xml:space="preserve">
+    <value>Pay</value>
+  </data>
+  <data name="&gt;&gt;ButtonforPay.Name" xml:space="preserve">
+    <value>ButtonforPay</value>
+  </data>
+  <data name="&gt;&gt;ButtonforPay.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2Button, Guna.UI2, Version=2.0.0.1, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;ButtonforPay.Parent" xml:space="preserve">
+    <value>CreateBillPanelData</value>
+  </data>
+  <data name="&gt;&gt;ButtonforPay.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="ButtonForAdd.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 14.25pt, style=Bold</value>
+  </data>
+  <data name="ButtonForAdd.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 266</value>
+  </data>
+  <data name="ButtonForAdd.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="ButtonForAdd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>123, 52</value>
+  </data>
+  <data name="ButtonForAdd.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="ButtonForAdd.Text" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="&gt;&gt;ButtonForAdd.Name" xml:space="preserve">
+    <value>ButtonForAdd</value>
+  </data>
+  <data name="&gt;&gt;ButtonForAdd.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2Button, Guna.UI2, Version=2.0.0.1, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;ButtonForAdd.Parent" xml:space="preserve">
+    <value>CreateBillPanelData</value>
+  </data>
+  <data name="&gt;&gt;ButtonForAdd.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="Pointlabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Pointlabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 11.25pt, style=Bold</value>
+  </data>
+  <data name="Pointlabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>502, 18</value>
+  </data>
+  <data name="Pointlabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 18</value>
+  </data>
+  <data name="Pointlabel.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="Pointlabel.Text" xml:space="preserve">
+    <value>Points</value>
+  </data>
+  <data name="&gt;&gt;Pointlabel.Name" xml:space="preserve">
+    <value>Pointlabel</value>
+  </data>
+  <data name="&gt;&gt;Pointlabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Pointlabel.Parent" xml:space="preserve">
+    <value>CreateBillPanelData</value>
+  </data>
+  <data name="&gt;&gt;Pointlabel.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="CreateBillPanelData.Location" type="System.Drawing.Point, System.Drawing">
+    <value>25, 12</value>
+  </data>
+  <data name="CreateBillPanelData.Size" type="System.Drawing.Size, System.Drawing">
+    <value>920, 457</value>
+  </data>
+  <data name="CreateBillPanelData.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;CreateBillPanelData.Name" xml:space="preserve">
+    <value>CreateBillPanelData</value>
+  </data>
+  <data name="&gt;&gt;CreateBillPanelData.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2Panel, Guna.UI2, Version=2.0.0.1, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;CreateBillPanelData.Parent" xml:space="preserve">
+    <value>MainPanel</value>
+  </data>
+  <data name="&gt;&gt;CreateBillPanelData.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="MainPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>181, 55</value>
+  </data>
+  <data name="MainPanel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="MainPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>947, 487</value>
+  </data>
+  <data name="MainPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;MainPanel.Name" xml:space="preserve">
+    <value>MainPanel</value>
+  </data>
+  <data name="&gt;&gt;MainPanel.Type" xml:space="preserve">
+    <value>Guna.UI.WinForms.GunaElipsePanel, Guna.UI, Version=1.9.0.1, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;MainPanel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;MainPanel.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterParent</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Casher Form</value>
+  </data>
+  <data name="&gt;&gt;bunifuElipse1.Name" xml:space="preserve">
+    <value>bunifuElipse1</value>
+  </data>
+  <data name="&gt;&gt;bunifuElipse1.Type" xml:space="preserve">
+    <value>Bunifu.Framework.UI.BunifuElipse, Bunifu.UI.WinForms.1.5.3, Version=1.5.3.0, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9</value>
+  </data>
+  <data name="&gt;&gt;ID.Name" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="&gt;&gt;ID.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;name.Name" xml:space="preserve">
+    <value>name</value>
+  </data>
+  <data name="&gt;&gt;name.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Phone.Name" xml:space="preserve">
+    <value>Phone</value>
+  </data>
+  <data name="&gt;&gt;Phone.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;reportGenerator1.Name" xml:space="preserve">
+    <value>reportGenerator1</value>
+  </data>
+  <data name="&gt;&gt;reportGenerator1.Type" xml:space="preserve">
+    <value>DevExpress.XtraReports.ReportGeneration.ReportGenerator, DevExpress.XtraReports.v21.2.Extensions, Version=21.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>CashierForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <metadata name="reportGenerator1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>678, 17</value>
+  </metadata>
+</root>

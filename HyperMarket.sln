@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HyperMarket", "HyperMarket\HyperMarket.csproj", "{D9E1F56B-6578-4FA9-980F-B4FE04FB8725}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HyperMarketTeasting", "HyperMarketTeasting\HyperMarketTeasting.csproj", "{95A5B828-993B-4F16-A8D7-56385BC57D26}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D9E1F56B-6578-4FA9-980F-B4FE04FB8725}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9E1F56B-6578-4FA9-980F-B4FE04FB8725}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9E1F56B-6578-4FA9-980F-B4FE04FB8725}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9E1F56B-6578-4FA9-980F-B4FE04FB8725}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95A5B828-993B-4F16-A8D7-56385BC57D26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95A5B828-993B-4F16-A8D7-56385BC57D26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95A5B828-993B-4F16-A8D7-56385BC57D26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95A5B828-993B-4F16-A8D7-56385BC57D26}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B1B38CAF-F01D-4375-8582-B66DE4718626}
+	EndGlobalSection
+EndGlobal
